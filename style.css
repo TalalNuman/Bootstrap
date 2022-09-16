@@ -20,3 +20,13 @@
 .border-right {
   border-right: 1px solid "gray" !important;
 }
+.img-container: {
+  max-width: 100%;
+  max-height: 5rem;
+  overflow: hidden;
+}
+.img {
+  height: auto;
+  width: 100%;
+  object-fit: cover;
+}
